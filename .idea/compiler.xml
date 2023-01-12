@@ -8,16 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CustomerData" />
         <module name="productdata" />
+        <module name="IdGenerators" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CustomerData" target="17" />
+      <module name="IdGenerators" target="17" />
       <module name="productdata" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CustomerData" options="-parameters" />
+      <module name="IdGenerators" options="-parameters" />
       <module name="productdata" options="-parameters" />
     </option>
   </component>
