@@ -10,9 +10,11 @@ import jakarta.persistence.Table;
 public class Product {
 	@Id
 	private int id;
+	@Column
 	private String name;
 	@Column(name = "description")
 	private String desc;
+	@Column
 	private Double price;
 
 	public int getId() {
