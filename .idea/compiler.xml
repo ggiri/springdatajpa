@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HibernateInheritanceMapping" />
         <module name="IdGenerators" />
         <module name="CustomerData" />
         <module name="productdata" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CustomerData" target="17" />
+      <module name="HibernateInheritanceMapping" target="17" />
       <module name="IdGenerators" target="17" />
       <module name="JpqlAndNativeSql" target="17" />
       <module name="productdata" target="17" />
@@ -22,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CustomerData" options="-parameters" />
+      <module name="HibernateInheritanceMapping" options="-parameters" />
       <module name="IdGenerators" options="-parameters" />
       <module name="JpqlAndNativeSql" options="-parameters" />
       <module name="productdata" options="-parameters" />

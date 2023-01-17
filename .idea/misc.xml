@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/CustomerData/pom.xml" />
         <option value="$PROJECT_DIR$/IdGenerators/pom.xml" />
         <option value="$PROJECT_DIR$/JpqlAndNativeSql/pom.xml" />
+        <option value="$PROJECT_DIR$/HibernateInheritanceMapping/pom.xml" />
       </list>
     </option>
   </component>

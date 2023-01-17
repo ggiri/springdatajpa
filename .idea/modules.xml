@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomerData/CustomerData.iml" filepath="$PROJECT_DIR$/CustomerData/CustomerData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HibernateInheritanceMapping/HibernateInheritanceMapping.iml" filepath="$PROJECT_DIR$/HibernateInheritanceMapping/HibernateInheritanceMapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/IdGenerators/IdGenerators.iml" filepath="$PROJECT_DIR$/IdGenerators/IdGenerators.iml" />
       <module fileurl="file://$PROJECT_DIR$/JpqlAndNativeSql/JpqlAndNativeSql.iml" filepath="$PROJECT_DIR$/JpqlAndNativeSql/JpqlAndNativeSql.iml" />
       <module fileurl="file://$PROJECT_DIR$/productdata/productdata.iml" filepath="$PROJECT_DIR$/productdata/productdata.iml" />
