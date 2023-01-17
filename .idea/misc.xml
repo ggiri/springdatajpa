@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/IdGenerators/pom.xml" />
         <option value="$PROJECT_DIR$/JpqlAndNativeSql/pom.xml" />
         <option value="$PROJECT_DIR$/HibernateInheritanceMapping/pom.xml" />
+        <option value="$PROJECT_DIR$/ComponentMapping/pom.xml" />
       </list>
     </option>
   </component>
