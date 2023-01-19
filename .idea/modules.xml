@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Associations/Associations.iml" filepath="$PROJECT_DIR$/Associations/Associations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComponentMapping/ComponentMapping.iml" filepath="$PROJECT_DIR$/ComponentMapping/ComponentMapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomerData/CustomerData.iml" filepath="$PROJECT_DIR$/CustomerData/CustomerData.iml" />
       <module fileurl="file://$PROJECT_DIR$/HibernateInheritanceMapping/HibernateInheritanceMapping.iml" filepath="$PROJECT_DIR$/HibernateInheritanceMapping/HibernateInheritanceMapping.iml" />
