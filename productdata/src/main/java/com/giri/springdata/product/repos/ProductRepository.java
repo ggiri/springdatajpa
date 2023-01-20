@@ -5,6 +5,7 @@ import com.giri.springdata.product.entities.Product;
 import org.hibernate.metamodel.model.convert.spi.JpaAttributeConverter;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
@@ -28,4 +29,12 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     
     List<Product> findByDescContains(String s);
 
+    @Query(value = "CALL GetAllProducts", nativeQuery = true)
+    List<Product> findAllProducts();
+
+    @Query(value = "CALL GetAllProductsByPrice (:price_in)", nativeQuery = true)
+    List<Product> findProductsByPrice(double price_in);
+
+    @Query(value = "CALL GetAllProductsCountByPrice (:price_in)", nativeQuery = true)
+    int findProductsCountByPrice(double price_in);
 }

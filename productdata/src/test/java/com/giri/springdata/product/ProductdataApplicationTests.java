@@ -146,4 +146,19 @@ class ProductdataApplicationTests {
             System.out.println(result.getName());
         }
     }
+
+    @Test
+    void testFindAllProductsSP(){
+        System.out.println(repository.findAllProducts());
+    }
+
+    @Test
+    void testFindProductsByPrice(){
+        System.out.println(repository.findProductsByPrice(70000.00));
+    }
+
+    @Test
+    void testFindProductsCountByPrice(){
+        System.out.println(repository.findProductsCountByPrice(70000.00));
+    }
 }
