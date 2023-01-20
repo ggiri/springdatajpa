@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/HibernateInheritanceMapping/pom.xml" />
         <option value="$PROJECT_DIR$/ComponentMapping/pom.xml" />
         <option value="$PROJECT_DIR$/Associations/pom.xml" />
+        <option value="$PROJECT_DIR$/transactionmanagement/pom.xml" />
       </list>
     </option>
   </component>
