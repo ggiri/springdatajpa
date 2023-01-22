@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/ComponentMapping/pom.xml" />
         <option value="$PROJECT_DIR$/Associations/pom.xml" />
         <option value="$PROJECT_DIR$/transactionmanagement/pom.xml" />
+        <option value="$PROJECT_DIR$/PatientScheduling/pom.xml" />
       </list>
     </option>
   </component>
