@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="IdGenerators" />
+        <module name="CompositeKey" />
         <module name="CustomerData" />
         <module name="mongodemo" />
         <module name="productdata" />
@@ -15,13 +16,16 @@
         <module name="transactionmanagement" />
         <module name="Associations" />
         <module name="PatientScheduling" />
+        <module name="FileData" />
         <module name="JpqlAndNativeSql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Associations" target="17" />
       <module name="ComponentMapping" target="17" />
+      <module name="CompositeKey" target="17" />
       <module name="CustomerData" target="17" />
+      <module name="FileData" target="17" />
       <module name="HibernateInheritanceMapping" target="17" />
       <module name="IdGenerators" target="17" />
       <module name="JpqlAndNativeSql" target="17" />
@@ -35,7 +39,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Associations" options="-parameters" />
       <module name="ComponentMapping" options="-parameters" />
+      <module name="CompositeKey" options="-parameters" />
       <module name="CustomerData" options="-parameters" />
+      <module name="FileData" options="-parameters" />
       <module name="HibernateInheritanceMapping" options="-parameters" />
       <module name="IdGenerators" options="-parameters" />
       <module name="JpqlAndNativeSql" options="-parameters" />

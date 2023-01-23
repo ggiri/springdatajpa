@@ -35,8 +35,7 @@ class MongodemoApplicationTests {
 	@Test
 	void testFindAll() {
 		List<Product> products = repository.findAll();
-		assertEquals(1, products.size());
-		
+		assertEquals(1, products.size());		
 	}
 	
 	@Test
@@ -60,8 +59,7 @@ class MongodemoApplicationTests {
 		Product product = repository.findById("63ce76a020407c16f0fa34c5").get();
 		product.setPrice(60000);
 		Product updatedProduct = repository.save(product);
-		assertEquals(60000, updatedProduct.getPrice());
-		
+		assertEquals(60000, updatedProduct.getPrice());	
 	}
 
 }
