@@ -2,6 +2,9 @@ package com.giri.springdatajpa.compositekey.entities;
 
 import java.io.Serializable;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class CustomerId implements Serializable{
 
 	private static final long serialVersionUID = 1L;
