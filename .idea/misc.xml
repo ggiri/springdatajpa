@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/Associations/pom.xml" />
         <option value="$PROJECT_DIR$/transactionmanagement/pom.xml" />
         <option value="$PROJECT_DIR$/PatientScheduling/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodemo/pom.xml" />
       </list>
     </option>
   </component>
